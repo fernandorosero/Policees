@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Policees Seguridad - Demo -</title>
+        <title>__________________________<!--Policees Seguridad - Demo nada---></title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -21,35 +21,43 @@ and open the template in the editor.
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         
         <!-- CSS -->
-        <link rel="stylesheet" href="view/css/custom.css"
+        <link rel="stylesheet" href="view/css/custom.css"/>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.carousel').carousel({
+                    interval: 2000
+                })
+            });
+       </script>
     </head>
     <body>
         <?php
-        print("<h1 class='titulo_demo'>HOME POLICEES-Demo-</h1>");
+        print("<!--<h1 class='titulo_demo'>HOME POLICEES-Demo- nada</h1>-->");
         ?>
+        <!--
         <nav class="navbar navbar-inverse">
            <div class="container">
                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Inicio</a>
+                     <a class="navbar-brand" href="#">Inicio  |</a>
                 </div>
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Alarmas</a>
+                     <a class="navbar-brand" href="#">Alarmas  |</a>
                 </div>
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Camaras</a>
+                     <a class="navbar-brand" href="#">Camaras  |</a>
                 </div>
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Control-Horarios</a>
+                     <a class="navbar-brand" href="#">Control-Horarios  |</a>
                 </div>
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Contacto</a>
+                     <a class="navbar-brand" href="#">Contacto  |</a>
                 </div>
                  <div class="navbar-right">
                      <a class="navbar-brand" href="view/login.php">Acceso</a>
                 </div>
             </div>
         </nav>
-        
+        -->
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -62,18 +70,23 @@ and open the template in the editor.
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="view/img/img3.jpg" alt="...">
+        <img src="view/img/img3.jpg" alt="Primero">
       <div class="carousel-caption">
-        dato uno
+        banner uno
       </div>
     </div>
     <div class="item">
-        <img src="view/img/img1.jpg" alt="...">
+        <img src="view/img/img1.jpg" alt="Segundo">
       <div class="carousel-caption">
-        ...
+        banner 2
       </div>
     </div>
-    ...
+    <div class="item">
+        <img src="view/img/img2.jpg" alt="Segundo">
+      <div class="carousel-caption">
+        banner 3
+      </div>
+    </div>
   </div>
 
   <!-- Controls -->
@@ -87,5 +100,10 @@ and open the template in the editor.
   </a>
 </div>
         
+        
+       
+        
+        
     </body>
+    
 </html>
