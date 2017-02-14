@@ -24,6 +24,7 @@ and open the template in the editor.
         
         <!-- CSS -->
         <link rel="stylesheet" href="view/css/custom.css"/>
+        <!--
         <script type="text/javascript">
             $(document).ready(function(){
                 $('.carousel').carousel({
@@ -31,6 +32,7 @@ and open the template in the editor.
                 })
             });
        </script>
+        -->
     </head>
     <body>
         <?php
@@ -70,19 +72,19 @@ and open the template in the editor.
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-        <img src="view/img/img3.jpg" alt="Primero">
+        <img src="view/img/img6.jpg" alt="Primero">
       <div class="carousel-caption">
         banner uno
       </div>
     </div>
     <div class="item">
-        <img src="view/img/img1.jpg" alt="Segundo">
+        <img src="view/img/img4.jpg" alt="Segundo">
       <div class="carousel-caption">
         banner 2
       </div>
     </div>
     <div class="item">
-        <img src="view/img/img2.jpg" alt="Segundo">
+        <img src="view/img/img5.jpg" alt="Segundo">
       <div class="carousel-caption">
         banner 3
       </div>
