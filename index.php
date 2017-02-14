@@ -9,6 +9,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>__________________________<!--Policees Seguridad - Demo nada---></title>
         <!-- Latest compiled and minified CSS -->
+        <!-- jQuery -->
+        <script src="view/js/jquery.js"></script>
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional theme -->
@@ -17,8 +20,7 @@ and open the template in the editor.
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        
         
         <!-- CSS -->
         <link rel="stylesheet" href="view/css/custom.css"/>
@@ -34,7 +36,6 @@ and open the template in the editor.
         <?php
         print("<!--<h1 class='titulo_demo'>HOME POLICEES-Demo- nada</h1>-->");
         ?>
-        <!--
         <nav class="navbar navbar-inverse">
            <div class="container">
                 <div class="navbar-header">
@@ -57,7 +58,6 @@ and open the template in the editor.
                 </div>
             </div>
         </nav>
-        -->
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
