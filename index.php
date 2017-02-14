@@ -27,7 +27,7 @@ and open the template in the editor.
         <script type="text/javascript">
             $(document).ready(function(){
                 $('.carousel').carousel({
-                    interval: 2000
+                    interval: 3000
                 })
             });
        </script>
