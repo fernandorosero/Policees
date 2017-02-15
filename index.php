@@ -47,11 +47,11 @@ and open the template in the editor.
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Alarmas</a></li>
+                            <li><a href="view/alarmas.php">Alarmas</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="#">C&aacute;maras</a></li>
+                          <li><a href="view/camaras.php">C&aacute;maras</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="#">Control de Horarios</a></li>
+                          <li><a href="view/control-horarios.php">Control de Horarios</a></li>
                         </ul>
                       </li>
                  </div>
@@ -72,10 +72,10 @@ and open the template in the editor.
                      <a class="navbar-brand" href="#">Contacto</a>
                 </div>
                  <div class="navbar-right">
-                     <a class="navbar-brand" href="view/login.php">  Acceso</a>
+                     <a class="navbar-brand" href="view/login.php"> Acceso</a>
                 </div>
                       <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger btn-lg navbar-right glyphicon glyphicon-log-in" data-toggle="modal" data-target="#myModal">
+                <button type="button" class="btn btn-primary btn-lg navbar-right glyphicon glyphicon-log-in" data-toggle="modal" data-target="#myModal"> 
                     Acceso
                 </button>
             </div>
