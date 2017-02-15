@@ -50,14 +50,17 @@
  </div> <!-- /container -->
  
  
- 
+ <!-- inicio este nav mejor -->
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
+   
+    <!--
     <div class="navbar-left">
         <img src="img/logo1.jpg" style="height:100px;width: 100px;"/>
         
     </div>
+    -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -108,6 +111,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+ <!-- inicio este nav mejor -->
 <style type="text/css">
  body { background-color: #eee; }
 </style>
