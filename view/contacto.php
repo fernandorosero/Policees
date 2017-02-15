@@ -36,19 +36,19 @@
      <h2 class="form-signin-heading text-center">Formulario de Contacto</h2>
   <div class="form-group">
     <label for="exampleInputEmail1">Nombre *</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" required/>
   </div>  
   <div class="form-group">
     <label for="exampleInputEmail1">Correo electr&oacute;nico *</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="" required/>
   </div>
   <div class="form-group">
       <label for="exampleInputPassword1">Tel&eacute;fono *</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="" required/>
   </div>
   <div class="form-group">
     <label for="exampleInputFile">Mensaje *</label>
-    <textarea class="form-control" rows="5"></textarea>
+    <textarea class="form-control" rows="5" required></textarea>
   </div>
   
   <button type="submit" class="btn btn-info">Enviar</button>
