@@ -41,8 +41,21 @@ and open the template in the editor.
         <nav class="navbar navbar-inverse">
            <div class="container">
                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Inicio  |</a>
+                     <a class="navbar-brand" href="#">Inicio</a>
                 </div>
+               <div class="nav navbar-nav">
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Alarmas</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">C&aacute;maras</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Control de Horarios</a></li>
+                        </ul>
+                      </li>
+                 </div>
+               <!--
                  <div class="navbar-header">
                      <a class="navbar-brand" href="#">Alarmas  |</a>
                 </div>
@@ -52,11 +65,14 @@ and open the template in the editor.
                  <div class="navbar-header">
                      <a class="navbar-brand" href="#">Control-Horarios  |</a>
                 </div>
+               
+               -->
+               
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Contacto  |</a>
+                     <a class="navbar-brand" href="#">Contacto</a>
                 </div>
                  <div class="navbar-right">
-                     <a class="navbar-brand" href="view/login.php">Acceso</a>
+                     <a class="navbar-brand" href="view/login.php">  Acceso</a>
                 </div>
                       <!-- Button trigger modal -->
                 <button type="button" class="btn btn-danger btn-lg navbar-right glyphicon glyphicon-log-in" data-toggle="modal" data-target="#myModal">
@@ -65,6 +81,7 @@ and open the template in the editor.
             </div>
         </nav>
         
+        <!-- inicio carousel -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -76,7 +93,7 @@ and open the template in the editor.
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-              <img src="view/img/img6.jpg" alt="Primero">
+              <img src="view/img/img7.jpg" alt="Primero">
             <div class="carousel-caption">
               banner uno
             </div>
@@ -105,48 +122,49 @@ and open the template in the editor.
           <span class="sr-only">Next</span>
         </a>
     </div>
-        
+        <!-- Fin carousel -->
         
 
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Acceso</h4>
-      </div>
-      <div class="modal-body">
-        <!-- inicio formulario-->
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Acceso</h4>
+              </div>
+              <div class="modal-body">
+                <!-- inicio formulario-->
+                <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+                    <!--
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        -->
 
-        
-        <!-- fin formulario -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-        <button type="submit" class="btn btn-primary">Aceptar</button>
-      </div>
-        </form>
-    </div>
-  </div>
-</div>
-        
+                <!-- fin formulario -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+              </div>
+                </form>
+            </div>
+          </div>
+        </div>
+
         
     </body>
     
