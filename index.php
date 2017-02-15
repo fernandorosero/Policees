@@ -69,7 +69,7 @@ and open the template in the editor.
                -->
                
                  <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Contacto</a>
+                     <a class="navbar-brand" href="view/contacto.php">Contacto</a>
                 </div>
                  <div class="navbar-right">
                      <a class="navbar-brand" href="view/login.php"> Acceso</a>
@@ -165,6 +165,11 @@ and open the template in the editor.
           </div>
         </div>
 
+        <!-- inicio formulario contacto -->
+        <?php
+        //include_once './view/contacto.php';
+        ?>
+        <!-- fin formulario contacto -->
         
     </body>
     

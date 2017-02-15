@@ -27,7 +27,9 @@
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Correo electr&oacute;nico" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Contrase&ntilde;a" required
+               style="    margin-top: 5px;"
+                >
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Recordar
