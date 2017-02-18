@@ -26,6 +26,7 @@ footer{
 footer p{    
     float: left;
     font-weight: bold;
+    color:white;
     font-size: 13px;
     margin-left: 4px;
 }
@@ -38,7 +39,7 @@ footer ul li{
 }
 footer ul li a{
     text-decoration: none;
-    color: #1bb7aa;
+    color: white;
     padding-right: 8px;
     
     font-size: 13px;
@@ -47,3 +48,14 @@ footer div ul li span{
     margin-right: 5px;
 }
 /*******************FIN FOOTER****************/
+/*
+.imgCarousel{
+    height: 100%;
+    width: 100%;
+}
+
+
+.carousel, .carousel-inner > .item > img {
+  height: 100%;
+}
+*/
