@@ -9,7 +9,7 @@
             <div class="container">
             <img src="img/map_ubicacion.jpg" style="margin-top: 50px;"/>
             <address style="margin-top: 28px;">
-                <strong class="text-primary">Empresa, S.A.</strong><br>
+                <strong class="text-primary">Policees, S.A.</strong><br>
                 28044 Valdemoro, Madrid<br>
                 Madrid- Espa&ntilde;a<br>
                 <abbr title="Phone">Teléfono:</abbr> (34) 666-555-333
@@ -27,7 +27,7 @@
                     margin: 0.3em 0 0 0;
                     text-decoration: none;
                     ">
-                    empresa.contactos@example.com
+                    policees.contactos@policees.com
                 </a>
                       </p>  
             </address>
@@ -53,7 +53,7 @@
             <label for="exampleInputFile">Mensaje *</label>
             <textarea class="form-control" rows="5" required></textarea>
           </div>
-
+             <a href="../index.php" class="btn btn-danger">Cancelar</a>   
           <button type="submit" class="btn btn-info btn">Enviar</button>
         </form>
     </div>

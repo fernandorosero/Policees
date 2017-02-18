@@ -12,49 +12,8 @@
     <body>
         <?php
         print("<!--<h1 class='titulo_demo'>HOME POLICEES-Demo- nada</h1>-->");
+        include_once './nav-bar_nivel1.php';
         ?>
-        <nav class="navbar navbar-inverse">
-           <div class="container">
-                <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Inicio</a>
-                </div>
-               <div class="nav navbar-nav">
-                        <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="view/alarmas.php">Alarmas</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="view/camaras.php">C&aacute;maras</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="view/control-horarios.php">Control de Horarios</a></li>
-                        </ul>
-                      </li>
-                 </div>
-               <!--
-                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Alarmas  |</a>
-                </div>
-                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Camaras  |</a>
-                </div>
-                 <div class="navbar-header">
-                     <a class="navbar-brand" href="#">Control-Horarios  |</a>
-                </div>
-               
-               -->
-               
-                 <div class="navbar-header">
-                     <a class="navbar-brand" href="view/contacto.php">Contacto</a>
-                </div>
-                 <div class="navbar-right">
-                     <a class="navbar-brand" href="view/login.php"> Acceso</a>
-                </div>
-                      <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg navbar-right glyphicon glyphicon-log-in" data-toggle="modal" data-target="#myModal"> 
-                    Acceso
-                </button>
-            </div>
-        </nav>
         
         <!-- inicio carousel -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -140,12 +99,51 @@
           </div>
         </div>
 
+        <!-- inicio productos -->
+        <div class="row" style="margin-top: 40px;">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="view/img/camara-150x150.jpg" alt="camara">
+            <div class="caption">
+                <h3>C&aacute;maras de seguridad</h3>
+              <p>Especialistas en instalación y manteniemiento de cámaras de seguridad</p>
+              <p><a href="view/camaras.php" class="btn btn-primary btn-block" role="button">Ir a Cámaras</a></p>
+            </div>
+          </div>
+        </div>
+            
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="view/img/detalle1-150x150.jpg" alt="camara">
+            <div class="caption">
+                <h3>Alarmas</h3>
+              <p>Especialistas en instalación y manteniemiento de alarmas en todos los modelos</p>
+              <p><a href="view/camaras.php" class="btn btn-primary btn-block" role="button">Ir a Alarmas</a></p>
+            </div>
+          </div>
+        </div>
+            
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+              <img src="view/img/control_acceso-300x300.jpg" alt="camara" style="height: 150px;">
+            <div class="caption">
+                <h3>Control de accesos</h3>
+              <p>Especialistas en instalación y manteniemiento de Control de accesos, para empresas y particulares</p>
+              <p><a href="view/camaras.php" class="btn btn-primary btn-block" role="button">Ir a Control Horarios</a></p>
+            </div>
+          </div>
+        </div>    
+      </div>
+        <!-- fin productos -->
+        
         <!-- inicio formulario contacto -->
         <?php
-        //include_once './view/contacto.php';
+        //include './view/contacto.php';
         ?>
         <!-- fin formulario contacto -->
-        
+        <?php
+            include_once './footer.php';
+        ?>
     </body>
     
 </html>
