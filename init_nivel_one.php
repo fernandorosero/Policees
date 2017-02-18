@@ -1,6 +1,3 @@
-<?php
-
-?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  <!-- jQuery -->
 <script src="view/js/jquery.js"></script>

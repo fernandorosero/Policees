@@ -1,7 +1,7 @@
 <?php
     include_once './init_nivel_two.php';
 ?>
-
+<div id="navMenu">
 <!-- inicio este nav mejor -->
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -117,4 +117,4 @@
           </div>
         </div>
 
-
+</div>

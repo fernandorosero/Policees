@@ -1,8 +1,6 @@
 <?php
     include_once './init_nivel_one.php';
 ?>
-
-
 <!-- inicio este nav mejor -->
 <div id="navMenu">
  <nav class="navbar navbar-inverse">
