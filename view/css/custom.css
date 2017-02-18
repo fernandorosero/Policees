@@ -9,13 +9,18 @@ and open the template in the editor.
 */
 
 body{
-    background-color: #555;
+    /*background-color: #555;*/
 }
 .titulo_demo{
     color:white;
     width: 40%;
 }
-
+#carousel-example-generic{
+    margin-top: -20px;
+}
+#navMenu{
+    background: #101010;
+}
 /*******************INICIO FOOTER****************/
 footer{
     margin-top: -4px;

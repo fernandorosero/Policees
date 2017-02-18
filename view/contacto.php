@@ -20,7 +20,7 @@
                   <p style="
                      margin-top: 10px;
                      ">
-                <a href="mailto:#" 
+                <a href="mailto:tatofarp@hotmail.com; fernando.rosero@grupoonetec.com;" 
                    style="
                     border: 1px solid #007fcf;
                     padding: 0.5em 1em 0.5em 1em;

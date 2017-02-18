@@ -4,6 +4,7 @@
 
 
 <!-- inicio este nav mejor -->
+<div id="navMenu">
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -80,5 +81,5 @@
   </div><!-- /.container-fluid -->
 </nav>
  <!-- inicio este nav mejor -->
-
+</div>
 
