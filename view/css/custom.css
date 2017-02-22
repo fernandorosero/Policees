@@ -64,3 +64,8 @@ footer div ul li span{
   height: 100%;
 }
 */
+.vistaDashboard{
+    width:140px;
+    height: 140px;
+    background: red;
+}
