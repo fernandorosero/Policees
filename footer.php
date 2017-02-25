@@ -63,7 +63,7 @@
                 </p>
             </div>
             <div class="col-sm-6 col-md-4">
-                <h6 class="titulo">Nuestros productos m&aacute;s demandados</h6>
+                <h6 class="titulo">Nuestros productos m&aacute;s demandados.</h6>
                 <hr/>
                 <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
             </div>
