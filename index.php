@@ -24,6 +24,7 @@ $(function () {
         ?>
         
         <!-- inicio carousel -->
+        <div class="carouselPolicees">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -64,6 +65,7 @@ $(function () {
           <span class="sr-only">Next</span>
         </a>
     </div>
+            </div>
         <!-- Fin carousel -->
         
 
