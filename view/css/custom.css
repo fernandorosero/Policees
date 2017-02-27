@@ -26,6 +26,7 @@ footer{
     background:#333;
     color: #fefefe;
     width: 100%;
+    margin-top: 20px;
 }
 /*
 footer{
@@ -111,7 +112,7 @@ footer div ul li span{
     border-radius: 50px;
 }
 .contactoBloque{
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 35px;
 }
 #abajo{
@@ -136,4 +137,14 @@ footer div ul li span{
   transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
   
+}
+
+.btnFant{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+#productos{
+    background: #eee;
+    padding-bottom: 45px;
 }
