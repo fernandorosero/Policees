@@ -110,6 +110,7 @@ footer div ul li span{
 .imgCoorp{
     height: 85px;
     border-radius: 50px;
+    margin-top: -6px;
 }
 .contactoBloque{
     margin-top: 45px;
@@ -147,4 +148,7 @@ footer div ul li span{
 #productos{
     background: #eee;
     padding-bottom: 45px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
