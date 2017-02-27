@@ -148,7 +148,7 @@ $(function () {
         
         <!-- inicio formulario contacto -->
         <?php
-        //include './view/contacto.php';
+         include 'contacto.php';
         ?>
         <!-- fin formulario contacto -->
         <?php
