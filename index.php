@@ -22,9 +22,10 @@ $(function () {
         print("<!--<h1 class='titulo_demo'>HOME POLICEES-Demo- nada</h1>-->");
         include_once './nav-bar_nivel1.php';
         ?>
-        
         <!-- inicio carousel -->
         <div class="carouselPolicees">
+            
+        <a href="#abajo" id="arriba" class="arriba" >Abajo</a>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">

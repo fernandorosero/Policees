@@ -1,28 +1,26 @@
-
-
-$(function(){
-
-     $('#btnArriba').click(function() {
-
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-         && location.hostname == this.hostname) {
-
-             var $target = $(this.hash);
-
-             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-             if ($target.length) {
-
-                 var targetOffset = $target.offset().top;
-
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                 return false;
-
-            }
-
-       }
-
-   });
-
+$(document).ready(function(){
+        //nos desplazamos entre todos los divs
+        /*
+        $('a.ancla').click(function(e){
+        e.preventDefault();
+    enlace  = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(enlace).offset().top
+    }, 1000);
+        });
+        */
+        //vamos al principio o al final de la página
+        $('a.arriba').click(function(e){
+            e.preventDefault();
+            volver  = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(volver).offset().top
+            }, 1000);
+        });
+        //pasando la cantidad de pixeles que queremos a scrollTop
+        /*
+        $('.prueba').click(function(){
+                $('html, body').animate({scrollTop:100}, 2000); return false;
+        });
+        */
 });

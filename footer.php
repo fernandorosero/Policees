@@ -68,6 +68,8 @@
                 <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
             </div>
         </div>
-        <a class="btn btn-sm" id="btnArriba" href="#top">Arriba</a>
+        <div class="container">
+            <a href="#arriba" id="abajo" class="arriba" >Arriba</a>
+        </div>
     </div>
 </footer>
