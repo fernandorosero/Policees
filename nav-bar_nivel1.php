@@ -26,6 +26,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="dashboard.php">
                     <img alt="Brand" img src="view/img/PliceesCoorporative.jpg" class="imgCoorp">
+                    <h1 class="text-hide" style="color:white;">Nombre de la empresa</h1>
                 </a>
             </div>
         </div>
