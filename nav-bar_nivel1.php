@@ -66,11 +66,11 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <li><a href="alarmas.php">Alarmas</a></li>
+              <li><a href="view/alarmas.php">Alarmas</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="camaras.php">C&aacute;maras</a></li>
+            <li><a href="view/camaras.php">C&aacute;maras</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="control-horarios.php">Control de Horarios</a></li>
+            <li><a href="view/control-horarios.php">Control de Horarios</a></li>
           </ul>
         </li>
         <li><a href="contacto.php">Contacto</a></li>
@@ -86,43 +86,6 @@
   </div><!-- /.container-fluid -->
 </nav>
  <!-- inicio este nav mejor -->
-<!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Acceso</h4>
-              </div>
-              <div class="modal-body">
-                <!-- inicio formulario-->
-                <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-                    <!--
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Check me out
-            </label>
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        -->
-
-                <!-- fin formulario -->
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-primary">Aceptar</button>
-              </div>
-                </form>
-            </div>
-          </div>
-        </div>
+ 
 
 </div>

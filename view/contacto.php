@@ -4,8 +4,8 @@
   <?php
     include_once './init_nivel_two.php';
   ?>
-        <div class="col-md-1"></div>
-        <div class="col-md-4" style="margin-bottom: 20px;">
+    <div class="col-md-1"></div>
+    <div class="col-md-4" style="margin-bottom: 20px;">
             <div class="container">
             <img src="img/map_ubicacion.jpg" style="margin-top: 50px;"/>
             <address style="margin-top: 28px;">
@@ -33,7 +33,7 @@
             </address>
             </div>
         </div>
-        <div class="col-md-1"></div>
+    <div class="col-md-1"></div>
     <div class="col-md-5">
         <form>
              <h2 class="form-signin-heading text-center">Formulario de Contacto</h2>
