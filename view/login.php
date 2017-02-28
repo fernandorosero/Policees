@@ -26,7 +26,7 @@ include_once './init_nivel_two.php';
           </label>
         </div>
         <div class="col-md-6">
-            <button class="btn  btn-primary btn-block" style="margin-top: 3px;" type="button">Cancelar</button>
+            <a href="../index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Cancelar</a>
         </div>
         <div class="col-md-6">
             <button class="btn btn-primary btn-block" style="margin-top: 3px;" type="submit">Entrar</button>

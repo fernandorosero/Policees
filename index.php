@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<?php
-    include_once './init_nivel_one.php';
-?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -75,5 +72,7 @@
             include_once './footer.php';
         ?>
     </body>
-    
+    <?php
+        include_once './init_nivel_one.php';
+    ?>
 </html>

@@ -74,7 +74,7 @@
         <li>
             
             <form action="view/login.php" class="navbar-form navbar-left">
-                <button type="submit" class="btn btn-info glyphicon"><spam class="glyphicon-log-in"> Acceso</spam></button>
+                <button type="submit" class="btn btn-primary glyphicon"><spam class="glyphicon-log-in"> Acceso</spam></button>
            </form> 
         </li>
         

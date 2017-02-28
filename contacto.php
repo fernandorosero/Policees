@@ -24,8 +24,8 @@
             <label for="exampleInputFile">Mensaje *</label>
             <textarea class="form-control" rows="5" required></textarea>
           </div>
-             <a href="../index.php" class="btn btn-danger">Cancelar</a>   
-          <button type="submit" class="btn btn-info btn">Enviar</button>
+             <!-- <a href="../index.php" class="btn btn-info">Cancelar</a>   -->
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Enviar</button>
         </form>
     </div>
         

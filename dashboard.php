@@ -4,7 +4,7 @@
 ?>
 
 
-
+<div id="dashboard">
 <div class="container">
     <h2>Dashboard</h2>
     <div class="row">
@@ -73,4 +73,5 @@
     </div>
     
     
+</div>
 </div>
