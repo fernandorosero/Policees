@@ -73,7 +73,7 @@ footer div ul li span{
 }
 */
 #navMenu{
-    margin-top: 120px;
+  /*  margin-top: 120px;*/
 }
 .vistaDashboard{
   
@@ -113,7 +113,9 @@ footer div ul li span{
 .imgCoorp{
     height: 85px;
     border-radius: 50px;
-    margin-top: -6px;
+    margin-top: 6px;
+    margin-bottom: -42px;
+    z-index: 1;
 }
 .contactoBloque{
     margin-top: 45px;

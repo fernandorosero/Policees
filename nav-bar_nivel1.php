@@ -1,9 +1,9 @@
 <?php
     include_once './init_nivel_one.php';
 ?>
-<!-- inicio este nav mejor -->
 <div id="navMenu">
- <nav class="navbar navbar-inverse navbar-fixed-top">
+<!-- inicio este nav mejor -->
+ <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
    
@@ -13,23 +13,25 @@
         
     </div>
     -->
-   
+    <a href="dashboard.php">
+        <img alt="Brand" img src="view/img/PliceesCoorporative.jpg" class="imgCoorp hidden-xs">
+    </a>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>    
+      </button>
+        <a class="navbar-brand visible-xs" href="#">Policees</a>
+       <!--
+       -->
+        <!--
+        visible-xs  visible en movil
+        visible en web
+        -->
     </div>
-<div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="dashboard.php">
-                    <img alt="Brand" img src="view/img/PliceesCoorporative.jpg" class="imgCoorp">
-                    <h1 class="text-hide" style="color:white;">Nombre de la empresa</h1>
-                </a>
-            </div>
-        </div>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -64,26 +66,63 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <li><a href="view/alarmas.php">Alarmas</a></li>
+              <li><a href="alarmas.php">Alarmas</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="view/camaras.php">C&aacute;maras</a></li>
+            <li><a href="camaras.php">C&aacute;maras</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="view/control-horarios.php">Control de Horarios</a></li>
+            <li><a href="control-horarios.php">Control de Horarios</a></li>
           </ul>
         </li>
-        <li><a href="view/contacto.php">Contacto</a></li>
+        <li><a href="contacto.php">Contacto</a></li>
         <li>
             
             <form action="view/login.php" class="navbar-form navbar-left">
                 <button type="submit" class="btn btn-primary glyphicon"><spam class="glyphicon-log-in"> Acceso</spam></button>
            </form> 
         </li>
-        
         <li><a href="#" data-toggle="modal" data-target="#myModal">Acceso</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
  <!-- inicio este nav mejor -->
-</div>
+<!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Acceso</h4>
+              </div>
+              <div class="modal-body">
+                <!-- inicio formulario-->
+                <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+                    <!--
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        -->
 
+                <!-- fin formulario -->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+              </div>
+                </form>
+            </div>
+          </div>
+        </div>
+
+</div>
