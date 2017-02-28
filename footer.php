@@ -1,6 +1,3 @@
-<?php
-
-?>
 <footer>
     <div class="container">
         <div class="row">
@@ -44,7 +41,7 @@
                  <p>
                 <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
                 <span>
-                    ¡Estamos de estreno! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
+                    ¡Conoce nuestros nuevos productos! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
                 </span>
                 </p>
                 <br/>

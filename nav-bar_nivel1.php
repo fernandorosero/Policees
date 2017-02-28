@@ -1,6 +1,5 @@
-<?php
-    include_once './init_nivel_one.php';
-?>
+
+<a href="#abajo" id="arriba" class="arriba" ></a>
 <div id="navMenu">
 <!-- inicio este nav mejor -->
  <nav class="navbar navbar-inverse">

@@ -1,7 +1,3 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <?php
-        include_once './init_nivel_one.php';
-    ?>
 <div class="contactoBloque">
     <div class="container">
         <div class="col-md-6" style="margin-bottom: 20px;">
@@ -19,17 +15,14 @@
                     <p style="
                          margin-top: 10px;
                              ">
-                    <div class="container">
                     <a href="mailto:tatofarp@hotmail.com; fernando.rosero@grupoonetec.com;" 
                        style="
                         border: 1px solid #007fcf;
                         padding: 0.5em 1em 0.5em 1em;
                         margin: 0.3em 0 0 0;
                         text-decoration: none;
-                        ">
-                        policees.contactos@policees.com
-                    </a>
-                        </div>    
+                        ">policees.contactos@policees.com
+                    </a>  
                     </p>  
                 </address>
             </div>
