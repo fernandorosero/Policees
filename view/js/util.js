@@ -23,6 +23,8 @@ $(document).ready(function(){
                 $('html, body').animate({scrollTop:100}, 2000); return false;
         });
         */
+       var div_alto = $('#navMenu').height();
+	alert(div_alto);
 });
 
 $(function () {
