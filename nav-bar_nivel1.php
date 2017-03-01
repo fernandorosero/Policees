@@ -1,4 +1,3 @@
-
 <a href="#abajo" id="arriba" class="arriba" ></a>
 <div id="navMenu">
 <!-- inicio este nav mejor -->
@@ -22,12 +21,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand visible-xs" href="#">Policees</a>
+        <a class="navbar-brand visible-xs" href="index.php">Policees</a>
        <!--
        -->
         <!--
         visible-xs  visible en movil
-        visible en web
+        hidden-xs visible en web
         -->
     </div>
 

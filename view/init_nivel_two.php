@@ -13,3 +13,9 @@
 <link rel="stylesheet" href="css/custom.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<?php
+    $_urlImgFacebook ="img/facebook.svg";
+    $_urlImgTwitter ="img/twitter.svg";
+    $_urlImgYoutube ="img/youtube.svg";
+    $_urlImgMiniTwit ="img/Twitter_Social_Icon_White.png";
+?>

@@ -23,37 +23,37 @@
                        >Aviso Legal</a></b>
                 </p>
                 <ul class="list-group">
-                        <li class="listaLinea"><a href=""><img src="view/img/twitter2.svg" class="imgSocial"/></a></li>
-                        <li class="listaLinea"><a href="#"><img src="view/img/facebook.svg" class="imgSocial"/></a></li>
-                        <li class="listaLinea"><a href=""><img src="view/img/youtube.svg" class="imgSocial"/></a></li>
+                        <li class="listaLinea"><a href=""><img src="<?php echo $_urlImgTwitter?>" class="imgSocial"/></a></li>
+                        <li class="listaLinea"><a href="#"><img src="<?php echo $_urlImgFacebook?>" class="imgSocial"/></a></li>
+                        <li class="listaLinea"><a href=""><img src="<?php echo $_urlImgYoutube?>" class="imgSocial"/></a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-4">
                 <h6 class="titulo">Nuestros &uacute;ltimos Tweets</h6>
                 <hr/>
                 <p>
-                <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
+                <img src="<?php echo $_urlImgMiniTwit?>" class="miniTwitter"/>
                 <span>
                     ¡Estamos de estreno! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
                 </span>
                 </p>
                 <br/>
                  <p>
-                <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
+                <img src="<?php echo $_urlImgMiniTwit?>" class="miniTwitter"/>
                 <span>
                     ¡Conoce nuestros nuevos productos! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
                 </span>
                 </p>
                 <br/>
                  <p>
-                <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
+                <img src="<?php echo $_urlImgMiniTwit?>" class="miniTwitter"/>
                 <span>
                     ¡Estamos de estreno! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
                 </span>
                 </p>
                 <br/>
                  <p>
-                <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
+                <img src="<?php echo $_urlImgMiniTwit?>" class="miniTwitter"/>
                 <span>
                     ¡Estamos de estreno! Entra en http://policees.com  y conoce nuestra nueva web. Además muy pronto desvelaremos muchas otras novedades ;)
                 </span>
@@ -62,7 +62,7 @@
             <div class="col-sm-6 col-md-4">
                 <h6 class="titulo">Nuestros productos m&aacute;s demandados.</h6>
                 <hr/>
-                <img src="view/img/Twitter_Social_Icon_White.png" class="miniTwitter"/>
+                <img src="<?php echo $_urlImgMiniTwit?>" class="miniTwitter"/>
             </div>
         </div>
         <div class="btnFant">
@@ -75,3 +75,10 @@
         </div>
     </div>
 </footer>
+<!--
+$_urlImgFacebook ="img/facebook.svg";
+    $_urlImgTwitter ="img/twitter.svg";
+    $_urlImgYoutube ="img/youtube.svg";
+    $_urlImgMiniTwit ="img/Twitter_Social_Icon_White.png";
+
+-->

@@ -23,6 +23,7 @@ body{
 }
 /*******************INICIO FOOTER****************/
 footer{
+    padding-top: 35px;
     background:black;
     color: #fefefe;
     width: 100%;

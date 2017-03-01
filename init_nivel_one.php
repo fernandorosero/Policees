@@ -17,3 +17,9 @@
     });
 </script>
 -->
+<?php
+    $_urlImgFacebook ="view/img/facebook.svg";
+    $_urlImgTwitter ="view/img/twitter.svg";
+    $_urlImgYoutube ="view/img/youtube.svg";
+    $_urlImgMiniTwit ="view/img/Twitter_Social_Icon_White.png";
+?>            

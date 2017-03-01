@@ -10,19 +10,19 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="view/img/img7.jpg" alt="Polices">
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     Policees
                 </div>
             </div>
             <div class="item">
                 <img src="view/img/img4.jpg" alt="Productos">
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     Productos
                 </div>
             </div>
             <div class="item">
                 <img src="view/img/img5.jpg" alt="Contacto">
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     Contacto
                 </div>
             </div>

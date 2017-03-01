@@ -1,7 +1,8 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <?php
     include_once './init_nivel_two.php';
+    include_once './nav-bar_nivel2.php';
   ?>
+<div class="container">
     <div class="col-md-1"></div>
     <div class="col-md-4" style="margin-bottom: 20px;">
             <div class="container">
@@ -56,3 +57,7 @@
         </form>
     </div>
     <div class="col-md-1"></div>
+</div>    
+<?php
+ include_once '../footer.php';
+ ?>

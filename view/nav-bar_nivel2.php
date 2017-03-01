@@ -1,3 +1,4 @@
+<a href="#abajo" id="arriba" class="arriba" ></a>
 <?php
     include_once './init_nivel_two.php';
 ?>
@@ -22,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand visible-xs" href="#">Policees</a>
+        <a class="navbar-brand visible-xs" href="../index.php">Policees</a>
        <!--
        -->
         <!--
@@ -76,7 +77,7 @@
         <li>
             
             <form action="login.php" class="navbar-form navbar-left">
-                <button type="submit" class="btn btn-info glyphicon"><spam class="glyphicon-log-in"> Acceso</spam></button>
+                <button type="submit" class="btn btn-primary glyphicon"><spam class="glyphicon-log-in"> Acceso</spam></button>
            </form> 
         </li>
         <li><a href="#" data-toggle="modal" data-target="#myModal">Acceso</a></li>
