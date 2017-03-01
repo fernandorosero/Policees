@@ -86,7 +86,7 @@ footer div ul li span{
     margin-bottom: 40px;
 }
 .noLineaEnlace{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .imgSocial{
     margin-top: 15px;
