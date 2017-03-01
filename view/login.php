@@ -1,12 +1,5 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 include_once './init_nivel_two.php';
-
 ?>
 
 <div class="container">
@@ -25,6 +18,9 @@ include_once './init_nivel_two.php';
             <input type="checkbox" value="remember-me"> Recordar
           </label>
         </div>
+        <a href="recuperaPassword.php">¿Ha olvidado su contrase&ntilde;a?</a>
+        <br/><br/>
+        
         <div class="col-md-6">
             <a href="../index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Cancelar</a>
         </div>
@@ -47,5 +43,3 @@ include_once './init_nivel_two.php';
  body { background-color: #eee; }
 </style>
     
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

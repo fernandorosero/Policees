@@ -16,6 +16,7 @@
                             <label for="exampleInputPassword1">Contrase&ntilde;a:</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contrase&ntilde;a">
                         </div>
+                        <a href="view/recuperaPassword.php">¿Ha olvidado su contrase&ntilde;a?</a><br/><br/>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                             <button type="submit" class="btn btn-primary">Aceptar</button>
