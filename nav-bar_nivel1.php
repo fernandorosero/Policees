@@ -13,7 +13,7 @@
     </div>
     -->
     <a href="dashboard.php">
-        <img alt="Brand" img src="view/img/PliceesCoorporative.jpg" class="imgCoorp hidden-xs">
+        <img alt="Brand" img src="view/img/PoliceesCoorporative.jpg" class="imgCoorp hidden-xs">
     </a>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -72,7 +72,7 @@
             <li><a href="view/control-horarios.php">Control de Horarios</a></li>
           </ul>
         </li>
-        <li><a href="contacto.php">Contacto</a></li>
+        <li><a href="view/contacto.php">Contacto</a></li>
         <li>
             
             <form action="view/login.php" class="navbar-form navbar-left">

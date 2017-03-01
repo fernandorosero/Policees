@@ -2,8 +2,6 @@
    include_once './init_nivel_one.php';
    include_once './nav-bar_nivel1.php';
 ?>
-
-
 <div id="dashboard">
     <div class="container">
         <h2>Dashboard</h2>

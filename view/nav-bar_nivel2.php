@@ -14,7 +14,7 @@
     </div>
     -->
    
-       <img alt="Brand" img src="img/PliceesCoorporative.jpg" class="imgCoorp hidden-xs">
+       <img alt="Brand" img src="img/PoliceesCoorporative.jpg" class="imgCoorp hidden-xs">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
