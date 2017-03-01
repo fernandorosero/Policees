@@ -68,5 +68,10 @@
         <div class="btnFant">
             <a href="#arriba" id="abajo" class="arriba" >Arriba</a>
         </div>
+        <div class="btnFant">
+            <a href="#arriba" id="abajo" class="arriba" style="border-radius: 50px; height: 40px; width:40px;">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+                </a>
+        </div>
     </div>
 </footer>
