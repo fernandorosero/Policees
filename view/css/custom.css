@@ -9,7 +9,11 @@ and open the template in the editor.
 */
 
 body{
-    /*background-color: #555;*/
+background: url("../img/PoliceesCoorporative.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 .titulo_demo{
     color:white;
@@ -112,12 +116,11 @@ footer div ul li span{
 .miniTwitter{
     height: 18px;
 }
-.imgCoorp{
+.imgCoorp{    
     height: 85px;
     border-radius: 50px;
-    margin-top: 6px;
-    margin-bottom: -42px;
-    z-index: 1;
+    margin-top: 8px;
+    margin-bottom: -47px;
 }
 .contactoBloque{
     margin-top: 45px;
@@ -165,3 +168,7 @@ hr {
     margin: 0 0 24px 0;
     width: 100%;
 }
+
+/*
+#background{ z-index:1; width:100%; height:100%;}
+*/
