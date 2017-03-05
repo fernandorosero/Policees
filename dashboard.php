@@ -15,7 +15,7 @@
                 </a>
             </div>
             <div class="col-sm-3 col-md-3 vistaDashboard">
-               <a href="#" class="thumbnail noLineaEnlace">
+                <a href="view/clientes.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>Clientes</p>
                         <img src="view/img/users-1.png" class="imgDashboard"/>

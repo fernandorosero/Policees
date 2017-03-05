@@ -34,3 +34,14 @@ $(function () {
     $('select.form-control').removeClass('form-control').css('width', '100%')
   }
 })
+
+function removeClass(identificador){
+    if(identificador == 0){
+        $("#formularioCliente").removeClass("none");
+        $("#busquedaNuevoCliente").addClass("none");
+    }
+    else{
+        $("#formularioCliente").addClass("none");
+        $("#busquedaNuevoCliente").removeClass("none");
+    }
+}
