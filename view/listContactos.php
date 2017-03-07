@@ -1,6 +1,6 @@
 <?php
     include_once './init_nivel_two.php';
-//    include_once './nav-bar_nivel2.php';
+    include_once './nav-bar_nivel2.php';
 ?>
 
 <div class="container" id="cuerpoListadoContactos">
@@ -73,16 +73,16 @@
                           style="resize: none;"
                           required></textarea>
                 <br/>
-                <input type="" onclick="visibleInvisible('alertMensaje', 'formContacto')" class="btn btn-primary"value="Responder"  style="margin-top: 4px;"/>
+                <input type="" onclick="visibleInvisible('alertMensaje', 'formContacto')" class="btn btn-primary"value="Responder"  svisibleInvisible('alertMensaje', 'formContacto')tyle="margin-top: 4px;"/>
             </div>
         </form>
     </div>
-        <div id="alertMensaje" class="alert alert-success text-center none" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Mensaje Enviado!</strong> Su mensaje ha sido enviado.
-        </div>
+    <div id="alertMensaje" class="alert alert-success text-center none" role="alert">
+        <button type="button" class="close" onclick="visibleInvisible('nada', 'alertMensaje')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Mensaje Enviado!</strong> Su mensaje ha sido enviado.
+    </div>
 </div>
 
 <?php
-//include_once '../footer.php';
+    include_once '../footer.php';
 ?>

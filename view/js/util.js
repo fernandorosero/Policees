@@ -50,3 +50,7 @@ function visibleInvisible(tag1, tag2){
     $("#"+tag1+"").removeClass("none");
     $("#"+tag2+"").addClass("none");
 }
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) { var target = $(e.target).attr("href") 
+    // activated tab alert(target); }); 
+

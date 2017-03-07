@@ -58,9 +58,9 @@
                 </a>
             </div>
             <div class="col-sm-3 col-md-3 vistaDashboard">
-                <a href="#" class="thumbnail noLineaEnlace">
+                <a href="view/zonaCliente.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
-                        <p>Productos</p>
+                        <p>Mis Cosas</p>
                         <img src="view/img/menu-4.png" class="imgDashboard"/>
                     </div>
                 </a>
