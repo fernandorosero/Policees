@@ -19,13 +19,18 @@
     
     <div id="myTabContent" class="tab-content responsive"> 
         <div class="tab-pane fade active in" id="docs"> 
-            Aqui documentos!! 
+            <div class="thumbnail" style="margin-top: 20px;">
+                Aqui documentos!! 
+            </div>
         </div> 
         <div class="tab-pane fade" id="videos"> 
-            Aqui videos! 
-            <!-- 4:3 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="img/videoprueba.mp4"></iframe>
+             
+            <div class="thumbnail" style="margin-top: 20px;">
+                Aqui videos! 
+                <!-- 4:3 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="img/videoprueba.mp4"></iframe>
+                </div>
             </div>
         </div> 
         <div class="tab-pane fade" id="mensaje"> 

@@ -51,6 +51,7 @@ function visibleInvisible(tag1, tag2){
     $("#"+tag2+"").addClass("none");
 }
 
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) { var target = $(e.target).attr("href") 
-    // activated tab alert(target); }); 
-
+$('a[data-toggle="tab"]').on('shown.bs.tab', 
+    function (e) { 
+        var target = $(e.target).attr("href");
+    }); // activated tab alert(target); });
