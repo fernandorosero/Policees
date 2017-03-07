@@ -7,14 +7,6 @@
         <h2>Dashboard</h2>
         <div class="row">
             <div class="col-sm-3 col-md-3 vistaDashboard">
-                <a href="#" class="thumbnail noLineaEnlace">
-                    <div class="caption text-center">
-                        <p>Usuarios</p>
-                        <img src="view/img/user.png" class="imgDashboard"/>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-md-3 vistaDashboard">
                 <a href="view/clientes.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>Clientes</p>
@@ -23,10 +15,18 @@
                </a>
             </div>
             <div class="col-sm-3 col-md-3 vistaDashboard">
-                <a href="#" class="thumbnail noLineaEnlace">
+                <a href="view/listContactos.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>Contactos</p>
                         <img src="view/img/agenda.png" class="imgDashboard"/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 col-md-3 vistaDashboard">
+                <a href="view/empleados.php" class="thumbnail noLineaEnlace">
+                    <div class="caption text-center">
+                        <p>Empleados</p>
+                        <img src="view/img/user.png" class="imgDashboard"/>
                     </div>
                 </a>
             </div>
