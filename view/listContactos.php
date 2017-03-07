@@ -1,11 +1,11 @@
 <?php
     include_once './init_nivel_two.php';
-    include_once './nav-bar_nivel2.php';
+//    include_once './nav-bar_nivel2.php';
 ?>
 
-<div class="container">
+<div class="container" id="cuerpoListadoContactos">
     <div id="listContactos">
-        <h2>Listado de C</h2>
+        <h2>Listado de Contactos</h2> 
         <div class="table-responsive table-bordered">
             <table class="table table-hover">
                 <tr>
@@ -22,23 +22,23 @@
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
-                    <td><a href="../index.php"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                    <td><a onclick="visibleInvisible('formContacto', 'alertMensaje')"><span class="glyphicon glyphicon-eye-open"></span></a></td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>2</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
-                    <td><a href="../index.php"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                    <td><a onclick="visibleInvisible('formContacto', 'alertMensaje')"><span class="glyphicon glyphicon-eye-open"></span></a></td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>3</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
                     <td>XXXXXXXX</td>
-                    <td><a href="../index.php"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                    <td><a onclick="visibleInvisible('formContacto', 'alertMensaje')"><span class="glyphicon glyphicon-eye-open"></span></a></td>
                 </tr>
             </table>
         </div>
@@ -58,7 +58,7 @@
             </ul>
         </nav>
     </div>
-    <div id="formContacto" class="thumbnail" style="padding: 12px; background: #eee">
+    <div id="formContacto" class="thumbnail none" style="padding: 12px; background: #eee">
         <h4>Contacto</h4>
         <form>
             <div class="form-group">
@@ -71,15 +71,18 @@
                 <h4 class="espacioInputFormulario">Responder:</h4>
                 <textarea rows="5" type="text" class="form-control espacioInputFormulario" id="" placeholder="Escribir respuesta" 
                           style="resize: none;"
-                          ></textarea>
+                          required></textarea>
                 <br/>
-                <input type="submit" class="btn btn-primary"value="Responder"  style="margin-top: 4px;"/>
+                <input type="" onclick="visibleInvisible('alertMensaje', 'formContacto')" class="btn btn-primary"value="Responder"  style="margin-top: 4px;"/>
             </div>
         </form>
     </div>
+        <div id="alertMensaje" class="alert alert-success text-center none" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Mensaje Enviado!</strong> Su mensaje ha sido enviado.
+        </div>
 </div>
 
-
 <?php
-include_once '../footer.php';
+//include_once '../footer.php';
 ?>

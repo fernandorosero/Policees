@@ -45,3 +45,8 @@ function removeClass(identificador){
         $("#busquedaNuevoCliente").removeClass("none");
     }
 }
+
+function visibleInvisible(tag1, tag2){
+    $("#"+tag1+"").removeClass("none");
+    $("#"+tag2+"").addClass("none");
+}
