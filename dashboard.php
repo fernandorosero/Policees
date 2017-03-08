@@ -26,7 +26,7 @@
                 <a href="view/empleados.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>Empleados</p>
-                        <img src="view/img/user.png" class="imgDashboard"/>
+                        <img src="view/img/user-7.png" class="imgDashboard"/>
                     </div>
                 </a>
             </div>
@@ -61,7 +61,15 @@
                 <a href="view/zonaCliente.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>Mis Cosas</p>
-                        <img src="view/img/menu-4.png" class="imgDashboard"/>
+                        <img src="view/img/photos.png" class="imgDashboard"/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3 col-md-3 vistaDashboard">
+                <a href="view/zonaCliente.php" class="thumbnail noLineaEnlace">
+                    <div class="caption text-center">
+                        <p>mi contrase&ntilde;a</p>
+                        <img src="view/img/key.png" class="imgDashboard"/>
                     </div>
                 </a>
             </div>
