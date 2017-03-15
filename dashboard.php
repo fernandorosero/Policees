@@ -66,7 +66,7 @@
                 </a>
             </div>
             <div class="col-sm-3 col-md-3 vistaDashboard">
-                <a href="view/zonaCliente.php" class="thumbnail noLineaEnlace">
+                <a href="view/cambioPass.php" class="thumbnail noLineaEnlace">
                     <div class="caption text-center">
                         <p>mi contrase&ntilde;a</p>
                         <img src="view/img/key.png" class="imgDashboard"/>
