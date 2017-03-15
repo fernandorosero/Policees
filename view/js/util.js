@@ -25,6 +25,18 @@ $(document).ready(function(){
         */
        /*var div_alto = $('#navMenu').height();
 	alert(div_alto);*/
+    /* inicio PARALAX*/
+    $(window).scroll(function(){
+		var barra = $(window).scrollTop();
+		var posicion =  (barra * 0.65);
+		
+		$('body').css({
+			'background-position': '0 -' + posicion + 'px'
+		});
+ 
+	});
+    /*fin PARALAX*/
+    
 });
 
 $(function () {
