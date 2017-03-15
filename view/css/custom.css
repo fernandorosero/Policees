@@ -185,3 +185,28 @@ hr {
     
     padding: 10px;
 }
+
+.btnFantasmaCarrousel{margin-bottom: 10px;
+                      
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+  border-radius: 3px;
+}
+.btnFantasmaCarrousel:hover,
+.btnFantasmaCarrousel:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+  color: #fff;
+}

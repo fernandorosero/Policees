@@ -9,21 +9,27 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="view/img/img7.jpg" alt="Polices">
+                <img src="view/img/img3.jpg" alt="Polices">
                 <div class="carousel-caption hidden-xs">
-                    Policees
-                </div>
+                    <a class="btnFantasmaCarrousel" href="#" style="text-decoration: none;">
+                        Policees
+                    </a>
+                </div><br/>
             </div>
             <div class="item">
                 <img src="view/img/img4.jpg" alt="Productos">
                 <div class="carousel-caption hidden-xs">
-                    Productos
+                    <a class="btnFantasmaCarrousel" href="#" style="text-decoration: none;">
+                        Productos
+                    </a>
                 </div>
             </div>
             <div class="item">
                 <img src="view/img/img5.jpg" alt="Contacto">
                 <div class="carousel-caption hidden-xs">
-                    Contacto
+                    <a class="btnFantasmaCarrousel" href="#" style="text-decoration: none;">
+                        Contacto
+                    </a>
                 </div>
             </div>
         </div>
