@@ -244,3 +244,29 @@ hr {
               border-color 0.3s ease-in;
   color: #fff;
 }
+
+/******init robot************/
+#contenedorIMG{
+    margin-top: 115px;
+}
+.lrobo{
+    margin-left: 200px;
+}
+.rrobot{
+       margin-top: 181px;
+    margin-left: -22px;
+}
+.robot{
+    margin-left: -135px;
+    margin-top: -75px; 
+}
+.nubeone{
+    
+}
+.nubetwo{
+    
+}
+.nubetree{
+    
+}
+/******end robot************/
