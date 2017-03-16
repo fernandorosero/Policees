@@ -1,4 +1,63 @@
 $(document).ready(function(){
+    
+    
+    /*********inicio animacion**************/
+
+
+$(".lrobo").css({
+    WebkitTransform: 'rotate(6deg)'
+    });
+  /*  
+    $(".lrobo").animate({
+    marginLeft:100},8000
+        
+        );
+    */
+   /*
+   var i = 0;
+   animate_loop = function(){
+       if(i==0){
+           i=1;
+            $(".lrobo").css({
+               WebkitTransform: 'rotate(6deg)'
+            }, 1000, function(){
+                animate_loop();
+            });
+            
+        }
+        else{//alert("seg");
+             i=0;
+            $(".lrobo").css({
+                WebkitTransform: 'rotate(0deg)'
+            }, 1000, function(){
+                animate_loop();
+            });
+           
+        }
+   }
+    animate_loop();
+   */
+  var i = 0;
+   animate_loop = function(){
+       if(i==0){
+           i=1;
+            $(".lrobo").css({
+               WebkitTransform: 'rotate(6deg)'
+            });
+            
+        }
+        else{//alert("seg");
+             i=0;
+            $(".lrobo").css({
+                WebkitTransform: 'rotate(0deg)'
+            });
+           
+        }
+   }
+    animate_loop();
+/*********fin animacion**************/
+
+
         //nos desplazamos entre todos los divs
         /*
         $('a.ancla').click(function(e){
@@ -37,6 +96,9 @@ $(document).ready(function(){
 	});
     /*fin PARALAX*/
     
+    
+    
+
 });
 
 $(function () {

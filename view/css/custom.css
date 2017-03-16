@@ -31,14 +31,14 @@ background-size: cover;
     font-family: helvetica, arial, sans-serif;
     line-height: 20px;
     */
-    
+    /*
     background: url(../img/PoliceesCoorporative.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
     width: 100%;
     height: 100%;
-    
+    */
 }
 
 #recuadroParalax{
@@ -250,15 +250,18 @@ hr {
     margin-top: 115px;
 }
 .lrobo{
-    margin-left: 200px;
+   margin-left: 200px;
+    
+    z-index: -1;
 }
 .rrobot{
-       margin-top: 181px;
-    margin-left: -22px;
+         margin-top: 181px;
+    margin-left: 77px;
 }
 .robot{
-    margin-left: -135px;
-    margin-top: -75px; 
+    margin-left: -282px;
+    margin-top: -75px;
+    z-index: 0;
 }
 .nubeone{
     
